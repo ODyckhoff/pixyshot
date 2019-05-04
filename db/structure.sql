@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS users (
 	user_pass TEXT NOT NULL,
 	user_realname TEXT NOT NULL,
 	display_realname BOOLEAN,
+	user_level INT NOT NULL,
 
 	PRIMARY KEY (user_id)
 );

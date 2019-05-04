@@ -1,0 +1,5 @@
+ErrorDocument 401 /var/www/error/401.htm
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule (.*) pub/$1 [L]
+ </IfModule>
