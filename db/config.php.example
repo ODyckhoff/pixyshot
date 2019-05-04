@@ -1,0 +1,6 @@
+<?php
+
+	define('DBUSER', "username");
+	define('DBPASS', "password");
+	define('DBHOST', "host.example.com");
+	define('DBNAME', "pixyshot");
