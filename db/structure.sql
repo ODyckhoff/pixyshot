@@ -25,6 +25,8 @@ CREATE TABLE IF NOT EXISTS photos (
 	time_uploaded DATETIME NOT NULL,
 	photo_guid TEXT NOT NULL,
         photo_user INT NOT NULL,
+	photo_title TEXT,
+	photo_filename TEXT,
 
 	PRIMARY KEY (photo_id),
 
